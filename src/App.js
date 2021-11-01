@@ -12,7 +12,7 @@ const App = () => {
 
     const backspace = () => {
         if (result == "ERROR") clear();
-        else setResult(result.slice(0,  - 1))
+        else setResult(result.slice(0,  - 1));
     }
 
     const calc = () => {
